@@ -4,6 +4,7 @@ var common = require('./common.js');
 var extension = require('./conceptual.extension.js')
 
 exports.transform = function (model) {
+  console.log('conceptual transform');
   if (extension && extension.preTransform) {
     model = extension.preTransform(model);
   }
@@ -14,6 +15,11 @@ exports.transform = function (model) {
   if (extension && extension.postTransform) {
     model = extension.postTransform(model);
   }
+
+  console.log('model gitContribute:[' + model._gitContribute + ']');
+
+  console.log('model pre:[' + model.preTransformed + ']');
+  console.log('model post:[' + model.postTransformed + ']');
 
   return model;
 }

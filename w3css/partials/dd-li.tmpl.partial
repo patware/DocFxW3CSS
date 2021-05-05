@@ -1,5 +1,0 @@
-<!-- partials\dd-li.tmpl.partial -->
-{{#items}}
-  <li><a href="{{topicHref}}">{{name}}</a></li>
-{{/items}}
-<!-- /partials\dd-li.tmpl.partial -->
