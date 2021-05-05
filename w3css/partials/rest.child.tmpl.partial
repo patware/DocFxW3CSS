@@ -1,3 +1,4 @@
+<!-- partials\rest.child.tmpl.partial -->
 {{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
 
 {{^_disableContribution}}
@@ -85,3 +86,4 @@
 {{#footer}}
 <div class="markdown level1 api-footer">{{{footer}}}</div>
 {{/footer}}
+<!-- /partials\rest.child.tmpl.partial -->

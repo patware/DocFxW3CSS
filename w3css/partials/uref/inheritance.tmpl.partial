@@ -1,4 +1,6 @@
+<!-- partials\uref\inheritance.tmpl.partial -->
 {{#inheritance}}
     {{>partials/uref/inheritance}}
 {{/inheritance}}
 <div class="level{{level}}">{{{type.specName.0.value}}}</div>
+<!-- /partials\uref\inheritance.tmpl.partial -->

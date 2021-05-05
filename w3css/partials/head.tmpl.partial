@@ -1,3 +1,4 @@
+<!-- partials\head.tmpl.partial -->
 {{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
 
 <head>
@@ -21,3 +22,4 @@
   {{#_enableSearch}}<meta property="docfx:rel" content="{{_rel}}">{{/_enableSearch}}
   {{#_enableNewTab}}<meta property="docfx:newtab" content="true">{{/_enableNewTab}}
 </head>
+<!-- /partials\head.tmpl.partial -->

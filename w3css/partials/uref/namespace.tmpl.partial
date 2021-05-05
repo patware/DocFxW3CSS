@@ -1,3 +1,4 @@
+<!-- partials\uref\namespace.tmpl.partial -->
 {{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
 
 <h1 id="{{id}}" data-uid="{{uid}}" class="text-break">{{>partials/title}}</h1>
@@ -219,3 +220,4 @@
     {{/children}}
   {{/isEmbedded}}
 {{/children}}
+<!-- /partials\uref\namespace.tmpl.partial -->
